@@ -314,6 +314,7 @@ svg:hover {
 
   /* Toggle this class - hide and show the popup */
   .popup .show {
+    visibility: visible;
     animation: fadeIn 1s;
     background-color: rgb(65, 75, 91);
     text-align: center;
