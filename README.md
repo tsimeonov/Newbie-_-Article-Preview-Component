@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://tsimeonov.github.io/Newbie-_-Article-Preview-Component/
 
 ## My process
 
@@ -22,5 +22,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-### What I learned
