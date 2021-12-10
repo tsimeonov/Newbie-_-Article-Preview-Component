@@ -296,8 +296,8 @@ svg:hover {
     position: absolute;
     z-index: 0;
     bottom: 125%;
-    left: 28%;
-    margin-left: -72px;
+    left: 20%;
+    margin-left: -90px;
   }
 
   .popup .popupText::after {

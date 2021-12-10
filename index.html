@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-  
-  <title>Article Preview Component</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-
-  <main>
-
-    <div class="drawer-img">
-      <img src="./images/drawers.jpg" alt="drawers">
-    </div>
-
-    <div class="container">
-      <h1>Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
-      </h1>
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps 
-        it felt slightly bare and uninviting. I’ve got some simple tips 
-        to help you make any room feel complete.
-      </p>
-
-      <div class="profile">
-        <img src="./images/avatar-michelle.jpg" alt="profile image">
-        <p>Michelle Appleton <span>28 Jun 2020</span></p>
+    <title>Article Preview Component</title>
+  </head>
+  <body>
+    <main>
+      <div class="drawer-img">
+        <img src="./images/drawers.jpg" alt="drawers" />
       </div>
 
-      <div class="popup" onclick="myFunction()">
-        <svg viewBox="0 -22 512 511" xmlns="http://www.w3.org/2000/svg">
-          <path d="m512 233.820312-212.777344-233.320312v139.203125h-45.238281c-140.273437 0-253.984375 113.710937-253.984375 253.984375v73.769531l20.09375-22.019531c68.316406-74.851562 164.980469-117.5 266.324219-117.5h12.804687v139.203125zm0 0"/>
-        </svg>
-        <!-- <img class="popupButton" src="/images/icon-share.svg" alt="popup button"> -->
-        <div class="popupText" id="myPopup">
-          <span>Share</span>
-          <img src="./images/icon-facebook.svg" alt="facebook icon">
-          <img src="./images/icon-twitter.svg" alt="twitter icon">
-          <img src="./images/icon-pinterest.svg" alt="pinterest icon">
+      <div class="container">
+        <h1>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <div class="profile">
+          <img src="./images/avatar-michelle.jpg" alt="profile image" />
+          <p>Michelle Appleton <span>28 Jun 2020</span></p>
+        </div>
+
+        <div class="popup" onclick="myFunction()">
+          <svg viewBox="0 -22 512 511" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m512 233.820312-212.777344-233.320312v139.203125h-45.238281c-140.273437 0-253.984375 113.710937-253.984375 253.984375v73.769531l20.09375-22.019531c68.316406-74.851562 164.980469-117.5 266.324219-117.5h12.804687v139.203125zm0 0"
+            />
+          </svg>
+          <!-- <img class="popupButton" src="/images/icon-share.svg" alt="popup button"> -->
+          <div class="popupText" id="myPopup">
+            <span>Share</span>
+            <img src="./images/icon-facebook.svg" alt="facebook icon" />
+            <img src="./images/icon-twitter.svg" alt="twitter icon" />
+            <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
+          </div>
         </div>
       </div>
 
-    </div>
-
-    <script src="app.js"></script>
-  </main>
-
-</body>
+      <script src="app.js"></script>
+    </main>
+  </body>
 </html>
